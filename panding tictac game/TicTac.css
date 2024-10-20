@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav{
+    background-color: #487386;
+    background-image: linear-gradient(135deg, #487386 0%, #9da0c0 100%);
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: #f2f7f7;
+    background-image: linear-gradient(135deg, #f2f7f7 0%, #f0f3f5 100%);
+
+
+    cursor: pointer;
+}
+
+.gameinfo{
+    padding: 0 50px;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.imgbox img{
+    display: none;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
